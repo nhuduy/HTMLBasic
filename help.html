@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<title>Just say with us</title>
+<meta charset="UTF-8">
+<!--MOBILE VERSION-->
+<meta name="viewport" content="width=device-width" />	
+	<!--MOBILE VERSION-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header, footer {
+    padding: 5px;
+    text-align: center;
+    background:#000;
+    color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Column container */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+<!--Test logo-->
+.left-column {
+  max-width: 255px;
+  float: left;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<form>
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><div class="left-column">
+      <a href="index.html" class="logo clearfix"><img src="img/logo.png" width="200" height="150"></a></td>
+    <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="1200" height="150">
+<param name="movie" value="flashvortex.swf" />
+<param name="quality" value="high" />
+<param name="menu" value="true" />
+<param name="allowScriptAccess" value="sameDomain" />
+<embed src="img/fvortexBanner.swf" quality="high" menu="true" width="1200" height="150" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain" />
+</object></td>
+  </tr>
+
+<script src="http://h2.flashvortex.com/display.php?id=2_1532610776_41234_442_0_728_90_9_2_47" type="text/javascript"></script>
+</table>
+</form>
+
+</div>
+
+<div id="navbar">
+  <a href="index.html">Home</a>
+  <a href="login.html">Login</a>
+  <a href="register.html">Register</a>
+  <a href="contact.html">Contact</a>
+  <a href="help.html">Help</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <h4>Our dream is to be the place where all coffee lovers share their coffee obsessions!</h4>
+      <p><a href="register.html">Join</a> with us, and create our community</p>
+      <p><a href="register.html"><img src="img/cf0.jpg" width="360" height="600"></a>
+      <p><a href="register.html"><img src="img/cf1.jpg" width="360" height="500"></a>
+  </div>
+  <div class="main">
+      <h2>HELP</h2>
+      <h4 style="color:#0C6">Some Troubles:</h4>
+      <h4>I want to register but don’t know how. Or: your system won’t let me register.</h4>
+      <blockquote>Welcome to our commuity. All new accounts must be made within our community. These usernames can then also be used to comment on news posted within the website portal. Use this form to register a new account. If you are still having problems, use our general contact form to email the webmaster.
+</blockquote>
+	<h4>When I post in the website, it says my account must be verified. Can you verify me?</h4>
+    <blockquote>In order to combat spam, we have placed several restrictions on new user accounts, including the inability to post any links to external sites. These restrictions are removed automatically after you make a certain number of posts (between 5 and 10). There is no way for any of the moderators or admins to speed this verification process, though you can speed it by actively engaging in discussions in the forums. But please, please don’t post junk just to get your post count up!</blockquote>
+	<h4>I want to add a signature to my posts, but I can’t find where to do that.</h4>
+    <blockquote>In order to combat spam, we have placed several restrictions on new user accounts, including the inability to use signatures. This particular restriction is removed after you make eight posts, but please don’t post junk just to raise your post count. Once you make eight posts, the system will auto-promote your account (this script runs every hour), and you will be able to edit your signature. You can find this option on the user control panel (accessible at all times in the forums using the “Quick Links” menu item). If this answer didn’t solve your problem, use our general contact form to email the webmaster.</blockquote>
+    <h4>I want to report an invalid link or attachment.</h4>
+    <blockquote>The fastest way to do this is to send a private message to the moderator for whatever website you were browsing. Here is a list of all moderators (scroll down for the forum-specific moderators).</blockquote>
+    <h4>I lost my username and/or password.</h4>
+    <blockquote>Contact the webmaster to fix it.</blockquote>
+    <h4>I want to be a moderator.</h4>
+    <blockquote>Send a private message to the Moderator Committee if you have other related questions.</blockquote>
+    <h4>I have a complaint about a moderator.</h4>
+    <blockquote>Please send a private message to the Moderator Committee.</blockquote>
+    <h4>I want to report some sort of abuse (spam, unruly behavior, etc).</h4>
+    <blockquote>This feature developing...</blockquote>
+    <h4>I love our community and I want to tell you about how much I love our community.</h4>
+    <blockquote>We love you too. Tell us all about it (in detail) with the form below. Please don’t be upset if we don’t respond to your messages of praise, but we really do appreciate them (and excitedly read them all) even if we don’t respond.</blockquote>
+
+
+</blockquote>
+
+      
+      
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Copyright &copy; 2018 Tran Nhu Duy</h2>
+</div>
+<script src="javascript/scrollDownNavbar.js"></script>
+</body>
+</html>
